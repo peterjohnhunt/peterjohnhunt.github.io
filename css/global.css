@@ -354,8 +354,8 @@ input, select {
   .main-content .section ul {
     margin-left: 30px; }
     .main-content .section ul li {
-      font-size: 0.825em;
-      line-height: 1.25em; }
+      font-size: 1em;
+      line-height: 1.5em; }
   .main-content .section p span {
     float: right; }
   @media (max-width: 725px) {
