@@ -235,7 +235,11 @@ input, select {
         -o-animation: dashPause 1.75s 0s linear forwards;
         animation: dashPause 1.75s 0s linear forwards; }
 @keyframes dashPause {
-  to {
+  40% {
+    stroke-dashoffset: 27.4; }
+  75% {
+    stroke-dashoffset: 27.4; }
+  100% {
     stroke-dashoffset: 0; } }
 @-webkit-keyframes dashPause {
   40% {
@@ -245,10 +249,18 @@ input, select {
   100% {
     stroke-dashoffset: 0; } }
 @-moz-keyframes dashPause {
-  to {
+  40% {
+    stroke-dashoffset: 27.4; }
+  75% {
+    stroke-dashoffset: 27.4; }
+  100% {
     stroke-dashoffset: 0; } }
 @-o-keyframes dashPause {
-  to {
+  40% {
+    stroke-dashoffset: 27.4; }
+  75% {
+    stroke-dashoffset: 27.4; }
+  100% {
     stroke-dashoffset: 0; } }
       .splashscreen .logo-holder svg#logo-svg .svg-mark .outside {
         stroke-dasharray: 288.86602783203125;

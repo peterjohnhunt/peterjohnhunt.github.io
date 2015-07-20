@@ -5,9 +5,15 @@
     animation: dashPause $duration $delay linear forwards;
 
     @keyframes dashPause {
-      to {
-        stroke-dashoffset: 0;
-      }
+        40% {
+          stroke-dashoffset: 27.4;
+        }
+        75% {
+          stroke-dashoffset: 27.4;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
     }
     @-webkit-keyframes dashPause {
       40% {
@@ -21,14 +27,26 @@
       }
     }
     @-moz-keyframes dashPause {
-      to {
-        stroke-dashoffset: 0;
-      }
+        40% {
+          stroke-dashoffset: 27.4;
+        }
+        75% {
+          stroke-dashoffset: 27.4;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
     }
     @-o-keyframes dashPause {
-      to {
-        stroke-dashoffset: 0;
-      }
+        40% {
+          stroke-dashoffset: 27.4;
+        }
+        75% {
+          stroke-dashoffset: 27.4;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
     }
 }
 

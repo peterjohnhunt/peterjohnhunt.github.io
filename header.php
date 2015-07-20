@@ -41,7 +41,7 @@
 		        <img src="images/logo-color.png" alt="" />
 		    </div>
 			<div class="contact">
-	            <a href="tel:+16306404335">(630) 640-GEEK (4335)</a><a href="mailto:email@peterjohnhunt.com">email@peterjohnhunt.com</a>
+	            <a href="tel:+16306404335">(630) 474-GEEK (4335)</a><a href="mailto:email@peterjohnhunt.com">info@peterjohnhunt.com</a>
 	        </div>
 		</div>
 	</div>

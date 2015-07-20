@@ -139,20 +139,8 @@
 
         <div class="section">
             <h2>Professional References</h2>
-            <p class="reference">
-                Andrew Muzik • Investigative Assistant • United States Secret Service <span><a href="tel:+16308533197">(630) 853-3197</a></span><br>
-                525 W Van Buren, Chicago, IL 60607<br>
-                <a href="mailto:Andrew.Muzik@usss.dhs.gov">Andrew.Muzik@usss.dhs.gov</a>
-            </p>
-            <p class="reference">
-                Brett N. Cowell • Vice President of IT • Hyatt Hotels <span><a href="tel:+18479519468">(847) 951-9468</a></span><br>
-                71 South Wacker Dr., Chicago, IL  60606<br>
-                <a href="mailto:Brett.Cowell@hyatt.com">Brett.Cowell@hyatt.com</a>
-            </p>
-            <p class="reference">
-                Jeff Malas • LPL Financial Advisor/AAMS/Owner • Milestone Wealth Design <span><a href="tel:+16302308500">(630) 230-8500</a></span><br>
-                129 Commercial Dr. Suite 8b Yorkville, IL 60560<br>
-                <a href="mailto:jeff.malas@lpl.com">jeff.malas@lpl.com</a>
+            <p>
+                Please <a href="mailto:email@peterjohnhunt.com">email me</a> for a list of references!
             </p>
         </div>
     </div>
