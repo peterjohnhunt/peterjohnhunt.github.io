@@ -5,6 +5,7 @@
     height: 100%;
     width: 100%;
     background-color: white;
+    pointer-events:none;
     @include hideAnimation(1s, 3s);
     .logo-holder {
         position: absolute;

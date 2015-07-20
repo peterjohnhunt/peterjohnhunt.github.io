@@ -195,6 +195,7 @@ input, select {
   height: 100%;
   width: 100%;
   background-color: white;
+  pointer-events: none;
   -webkit-animation: hide 1s 3s linear forwards;
   -moz-animation: hide 1s 3s linear forwards;
   -o-animation: hide 1s 3s linear forwards;
