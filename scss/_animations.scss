@@ -1,0 +1,193 @@
+@mixin lineAnimationPause ($duration: 1s, $delay: 0s) {
+    -webkit-animation: dashPause $duration $delay linear forwards;
+    -moz-animation: dashPause $duration $delay linear forwards;
+    -o-animation: dashPause $duration $delay linear forwards;
+    animation: dashPause $duration $delay linear forwards;
+
+    @keyframes dashPause {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @-webkit-keyframes dashPause {
+      40% {
+        stroke-dashoffset: 27.4;
+      }
+      75% {
+        stroke-dashoffset: 27.4;
+      }
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @-moz-keyframes dashPause {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @-o-keyframes dashPause {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+}
+
+@mixin lineAnimation ($duration: 1s, $delay: 0s) {
+    -webkit-animation: dash $duration $delay linear forwards;
+    -moz-animation: dash $duration $delay linear forwards;
+    -o-animation: dash $duration $delay linear forwards;
+    animation: dash $duration $delay linear forwards;
+
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @-webkit-keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @-moz-keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+    @-o-keyframes dash {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+}
+
+@mixin flipAnimation ($duration: 1s, $delay: 0s) {
+    -webkit-animation: flip $duration $delay linear forwards;
+    -moz-animation: flip $duration $delay linear forwards;
+    -o-animation: flip $duration $delay linear forwards;
+    animation: flip $duration $delay linear forwards;
+
+    @-webkit-keyframes flip{
+    	to{
+    		-webkit-transform: rotateY(360deg);
+    	}
+    }
+
+    @-moz-keyframes flip{
+    	to{
+    		-moz-transform: rotateY(360deg);
+    	}
+    }
+
+    @-o-keyframes flip{
+    	to{
+    		-o-transform: rotateY(360deg);
+    	}
+    }
+
+    @keyframes flip{
+    	to{
+    		transform: rotateY(360deg);
+    	}
+    }
+}
+
+@mixin fadeInAnimation ($duration: 1s, $delay: 0s) {
+    -webkit-animation: fadeIn $duration $delay linear forwards;
+    -moz-animation: fadeIn $duration $delay linear forwards;
+    -o-animation: fadeIn $duration $delay linear forwards;
+    animation: fadeIn $duration $delay linear forwards;
+
+    @-webkit-keyframes fadeIn{
+    	to{
+            opacity: 100;
+    	}
+    }
+
+    @-moz-keyframes fadeIn{
+    	to{
+            opacity: 100;
+    	}
+    }
+
+    @-o-keyframes fadeIn{
+    	to{
+            opacity: 100;
+    	}
+    }
+
+    @keyframes fadeIn{
+    	to{
+            opacity: 100;
+    	}
+    }
+}
+
+@mixin lockAnimation ($duration: 1s, $delay: 0s) {
+    -webkit-animation: lock $duration $delay linear forwards;
+    -moz-animation: lock $duration $delay linear forwards;
+    -o-animation: lock $duration $delay linear forwards;
+    animation: lock $duration $delay linear forwards;
+
+    @-webkit-keyframes lock{
+    	to{
+            -webkit-transform: translate(0%);
+            opacity: 100;
+    	}
+    }
+
+    @-moz-keyframes lock{
+    	to{
+            -moz-transform: translate(0%);
+            opacity: 100;
+    	}
+    }
+
+    @-o-keyframes lock{
+    	to{
+            -o-transform: translate(0%);
+            opacity: 100;
+    	}
+    }
+
+    @keyframes lock{
+    	to{
+            transform: translate(0%);
+            opacity: 100;
+    	}
+    }
+}
+
+@mixin hideAnimation ($duration: 0s, $delay: 0s) {
+    -webkit-animation: hide $duration $delay linear forwards;
+    -moz-animation: hide $duration $delay linear forwards;
+    -o-animation: hide $duration $delay linear forwards;
+    animation: hide $duration $delay linear forwards;
+
+    @-webkit-keyframes hide{
+    	to{
+            opacity: 0;
+            z-index: -1;
+    	}
+    }
+
+    @-moz-keyframes hide{
+    	to{
+            opacity: 0;
+            z-index: -1;
+    	}
+    }
+
+    @-o-keyframes hide{
+    	to{
+            opacity: 0;
+            z-index: -1;
+    	}
+    }
+
+    @keyframes hide{
+    	to{
+            opacity: 0;
+            z-index: -1;
+    	}
+    }
+}

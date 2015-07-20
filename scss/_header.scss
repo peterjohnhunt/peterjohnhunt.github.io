@@ -1,0 +1,48 @@
+.header {
+    padding: 25px 0;
+    .container {
+        border-bottom: 1px solid #000;
+        a {
+        	color: $bg;
+        	@include ease;
+        	&:hover {
+        		color: $red;
+        		@include ease;
+        	}
+        }
+        .logo {
+            text-align: center;
+            img {
+                width: 300px;
+                max-width: 100%;
+            }
+        }
+        @include breakpoint(special){
+            .logo {
+                margin-bottom: 15px;
+            }
+        }
+        .contact {
+            @extend .clr;
+            a {
+                float:left;
+                + a {
+                    float: right;
+                }
+            }
+        }
+        @include breakpoint(special){
+            .contact {
+                text-align: center;
+                a {
+                    float:none;
+                    display: block;
+                    margin-bottom: 10px;
+                    + a {
+                        float: none;
+                    }
+                }
+            }
+        }
+    }
+}

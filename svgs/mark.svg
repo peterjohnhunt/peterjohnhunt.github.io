@@ -1,0 +1,9 @@
+<svg version="1.1" id="logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="273.121px" height="273px" viewBox="0 0 273.121 273" enable-background="new 0 0 273.121 273" xml:space="preserve">
+<path id="outside-right" class="outside" fill="none" stroke="#EF4438" stroke-width="21" stroke-miterlimit="10" d="M161.761,70.809V10.661h100.688v251.668H151.681"/>
+<path id="inside-right" class="inside" fill="none" stroke="#EF4438" stroke-width="21" stroke-miterlimit="10" d="M212.161,50.648v161.681h-50.4l0.333-50.391
+	h-60.479"/>
+<path id="inside-left" class="inside" fill="none" stroke="#EF4438" stroke-width="21" stroke-miterlimit="10" d="M60.962,222.009V60.329h50.4l-0.333,50.39h60.479"
+	/>
+<path id="outside-left" class="outside" fill="none" stroke="#EF4438" stroke-width="21" stroke-miterlimit="10" d="M111.36,202.181v60.148H10.673V10.661H121.44"/>
+</svg>
