@@ -187,6 +187,8 @@ input, select {
 .footer {
   text-align: center;
   font-size: 0.825em; }
+  .footer a {
+    color: #EF4437; }
 
 .splashscreen {
   position: fixed;
