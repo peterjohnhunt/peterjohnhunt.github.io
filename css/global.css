@@ -356,8 +356,10 @@ input, select {
     .main-content .section ul li {
       font-size: 1em;
       line-height: 1.5em; }
-  .main-content .section p span {
-    float: right; }
+  .main-content .section p {
+    line-height: 1.5em; }
+    .main-content .section p span {
+      float: right; }
   @media (max-width: 725px) {
     .main-content .section p {
       text-align: center;
