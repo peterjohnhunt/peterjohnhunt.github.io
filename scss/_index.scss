@@ -153,6 +153,12 @@
         		color: $red;
         		@include ease;
         	}
+            &.red {
+                color: $red;
+                &:hover {
+                    color: darken($red, 20);
+                }
+            }
         }
 
         .tagline {

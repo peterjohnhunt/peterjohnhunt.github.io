@@ -187,8 +187,6 @@ input, select {
 .footer {
   text-align: center;
   font-size: 0.825em; }
-  .footer a {
-    color: #EF4437; }
 
 .splashscreen {
   position: fixed;
@@ -386,6 +384,10 @@ input, select {
       -moz-transition: all 0.35s ease-in-out;
       -o-transition: all 0.35s ease-in-out;
       transition: all 0.35s ease-in-out; }
+    .main-content .section a.red {
+      color: #EF4437; }
+      .main-content .section a.red:hover {
+        color: #b21a0e; }
   .main-content .section .tagline {
     text-align: center; }
     .main-content .section .tagline span {
