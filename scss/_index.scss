@@ -121,12 +121,12 @@
             margin-left: 30px;
             li {
                 font-size: 1em;
-                line-height: 1.5em;
+                line-height: 1.25em;
             }
         }
 
         p {
-            line-height: 1.5em;
+            line-height: 1.25em;
             span {
                 float: right;
             }
@@ -160,6 +160,7 @@
             span {
                 @include normitalic;
                 display: inline-block;
+                line-height: 1.25em;
                 &:after {
                     content: "\2022";
                     padding: 0 8px;

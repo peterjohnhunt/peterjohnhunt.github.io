@@ -355,9 +355,9 @@ input, select {
     margin-left: 30px; }
     .main-content .section ul li {
       font-size: 1em;
-      line-height: 1.5em; }
+      line-height: 1.25em; }
   .main-content .section p {
-    line-height: 1.5em; }
+    line-height: 1.25em; }
     .main-content .section p span {
       float: right; }
   @media (max-width: 725px) {
@@ -388,7 +388,8 @@ input, select {
       font-family: 'Myriad Pro Regular', sans-serif;
       font-style: italic;
       font-weight: normal;
-      display: inline-block; }
+      display: inline-block;
+      line-height: 1.25em; }
       .main-content .section .tagline span:after {
         content: "\2022";
         padding: 0 8px; }
